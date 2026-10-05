@@ -1,0 +1,15 @@
+{
+    "Document": {
+        "Title": "Εξερχόμενο αρχείο 1",
+        "Type": {
+            "Id": 2 
+        },
+        "Kind": {
+            "Id": 1 
+        },
+        "MainFile": {
+            "FileName": "testAlex1.txt",
+            "Base64File": "z4TOtc+Dz4QgzrHOu861zrrPgw0Kz4TOtc+Dz4Qgz4TOtc+Dz4QgzrHOu861zr4NCiAgz4TOtc+Dz4QgzrrOuSDOsc67zrvOu86/IM+EzrXPg8+EIM6xzrvOtc66zr/Pgg0Kz4M="
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.home": "C:\\jdk",
+    "java.jdt.ls.java.home": "C:\\jdk",
+    "java.import.maven.java.home": "C:\\jdk",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "C:\\jdk",
+            "default": true
+        }
+    ],
+    "terminal.integrated.env.windows": {
+        "JAVA_HOME": "C:\\jdk",
+        "Path": "C:\\jdk\\bin;${env:Path}"
+    },
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

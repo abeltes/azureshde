@@ -1,0 +1,169 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "description": "Oracle JDBC URL used by Spring DataSource."
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "description": "Oracle database username used by Spring DataSource."
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "description": "Oracle database password used by Spring DataSource."
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "description": "Oracle JDBC driver class."
+    },
+    {
+      "name": "spring.jpa.hibernate.ddl-auto",
+      "type": "java.lang.String",
+      "description": "Hibernate schema management mode."
+    },
+    {
+      "name": "spring.jpa.open-in-view",
+      "type": "java.lang.Boolean",
+      "description": "Enable or disable Open Session in View."
+    },
+    {
+      "name": "spring.jpa.properties.hibernate.dialect",
+      "type": "java.lang.String",
+      "description": "Hibernate SQL dialect class for Oracle."
+    },
+    {
+      "name": "hrmws.fota_tokenid",
+      "type": "java.lang.Long",
+      "description": "Token identifier used to read access token from TOKENS table."
+    },
+    {
+      "name": "hrmws.fota_credentials",
+      "type": "java.lang.String",
+      "description": "Serialized FOTA credentials payload used by token generation flow."
+    },
+    {
+      "name": "hrmws.fota_baseurl",
+      "type": "java.lang.String",
+      "description": "Base URL for the upstream FOTA API."
+    },
+    {
+      "name": "hrmws.fota_token_endpoint",
+      "type": "java.lang.String",
+      "description": "Relative endpoint used to obtain FOTA access tokens."
+    },
+    {
+      "name": "hrmws.fota_tutors_endpoint",
+      "type": "java.lang.String",
+      "description": "Relative endpoint for FOTA tutors API."
+    },
+    {
+      "name": "hrmws.fota_participants_endpoint",
+      "type": "java.lang.String",
+      "description": "Relative endpoint for FOTA participants API."
+    },
+    {
+      "name": "hrmws.fota_seminars_endpoint",
+      "type": "java.lang.String",
+      "description": "Relative endpoint for FOTA seminars API."
+    },
+    {
+      "name": "hrmws.fota_identities_endpoint",
+      "type": "java.lang.String",
+      "description": "Relative endpoint for FOTA identities API."
+    },
+    {
+      "name": "hrmws.newtokenapi",
+      "type": "java.lang.String",
+      "description": "Local REST mapping path for new token endpoint."
+    },
+    {
+      "name": "hrmws.tutorsapi",
+      "type": "java.lang.String",
+      "description": "Local REST mapping path for tutors endpoint."
+    },
+    {
+      "name": "hrmws.participantsapi",
+      "type": "java.lang.String",
+      "description": "Local REST mapping path for participants endpoint."
+    },
+    {
+      "name": "hrmws.seminarsapi",
+      "type": "java.lang.String",
+      "description": "Local REST mapping path for seminars endpoint."
+    },
+    {
+      "name": "hrmws.identitiesapi",
+      "type": "java.lang.String",
+      "description": "Local REST mapping path for identities endpoint."
+    },
+    {
+      "name": "hrmws.shde_credentials",
+      "type": "java.lang.String",
+      "description": "Serialized SHDE credentials payload used by token generation flow."
+    },
+    {
+      "name": "hrmws.shde_tokenid",
+      "type": "java.lang.Long",
+      "description": "Token identifier used to read the SHDE access token."
+    },
+    {
+      "name": "hrmws.shde_pkikey",
+      "type": "java.lang.Long",
+      "description": "Private-key identifier used to sign the SHDE user token."
+    },
+    {
+      "name": "hrmws.shde_baseurl",
+      "type": "java.lang.String",
+      "description": "Base URL for the upstream SHDE API."
+    },
+    {
+      "name": "hrmws.shde_token_endpoint",
+      "type": "java.lang.String",
+      "description": "Relative endpoint used to obtain SHDE access tokens."
+    },
+    {
+      "name": "hrmws.shde_docs_endpoint",
+      "type": "java.lang.String",
+      "description": "Relative endpoint for SHDE document retrieval."
+    },
+    {
+      "name": "hrmws.shde_files_endpoint",
+      "type": "java.lang.String",
+      "description": "Relative endpoint for SHDE file retrieval."
+    },
+    {
+      "name": "hrmws.shde_groups_endpoint",
+      "type": "java.lang.String",
+      "description": "Relative endpoint for SHDE groups retrieval."
+    },
+    {
+      "name": "hrmws.shdegetdocapi",
+      "type": "java.lang.String",
+      "description": "Local REST mapping path for SHDE document retrieval."
+    },
+    {
+      "name": "hrmws.shdegetfileapi",
+      "type": "java.lang.String",
+      "description": "Local REST mapping path for SHDE file retrieval."
+    },
+    {
+      "name": "hrmws.shdegetgroupsapi",
+      "type": "java.lang.String",
+      "description": "Local REST mapping path for SHDE groups retrieval."
+    },
+    {
+      "name": "hrmws.shde_register_endpoint",
+      "type": "java.lang.String",
+      "description": "Relative endpoint for SHDE document registration."
+    },
+    {
+      "name": "hrmws.shderegisterapi",
+      "type": "java.lang.String",
+      "description": "Local REST mapping path for SHDE document registration."
+    }
+  ]
+}
